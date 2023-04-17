@@ -1,0 +1,80 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+:root {
+  --primary-color: #704214;
+  --secondary-color: #d9b382;
+  --accent-color: #7f93a1;
+}
+
+#navbar {
+  position: fixed;
+  top: 225px;
+  left: 40px;
+  width: 500px;
+  height: 100%;
+  background-color: --secondary-color;
+  overflow-y: auto;
+  font-size: 30px;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: left;
+  margin-left: 350px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+blockquote {
+  border-left: 5px solid var(--secondary-color);
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+}
+
+table {
+  background-color: var(--secondary-color);
+}
+
+table tr, table td {
+  border-color: var(--secondary-color);
+}
+
+table tr:hover {
+  background-color: var(--accent-color);
+}
+
+img {
+  text-align: left;
+  margin-left: 350px;
+  width: 50%;
+  height: auto;
+}
+

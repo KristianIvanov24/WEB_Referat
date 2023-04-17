@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #704214;
+  --secondary-color: #d9b382;
+  --accent-color: #7f93a1;
+}
+
+body {
+  background: linear-gradient(to right, rgb(206, 195, 185) 30%, white 30%);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+  
+.pagination > li > a {
+  background-color: var(--secondary-color);
+}
+  
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+  
+p {
+  text-align: left;
+  margin-left: 350px;
+  font-size: 16px;
+}

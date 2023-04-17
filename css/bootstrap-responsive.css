@@ -1,0 +1,23 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-responsive.min.css');
+
+:root {
+  --primary-color: #704214;
+  --secondary-color: #d9b382;
+  --accent-color: #7f93a1;
+}
+
+.navbar {
+background-color: var(--secondary-color);
+}
+
+.navbar-nav > li > a {
+font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+color: #fff;
+}
+
+.navbar-toggle {
+background-color: var(--secondary-color);
+}
